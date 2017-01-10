@@ -28,27 +28,31 @@ namespace LINQExpressions
         }
         public void GetKolinScore()
         {
-
+            Console.WriteLine("Kolin's Scores:");
             foreach (int item in Kolin.OrderBy(item => item))
-                Console.WriteLine("Kolin's Score: " + item);
+             
+            Console.WriteLine(item);
             Console.WriteLine(" \n");
         }
         public void GetColleenScore()
         {
+            Console.WriteLine("Colleen's Scores:");
             foreach (int item in Colleen.OrderBy(item => item))
-                Console.WriteLine("Colleen's Score: " + item);
+                Console.WriteLine(item);
             Console.WriteLine(" \n");
         }
         public void GetCalebScore()
         {
+            Console.WriteLine("Caleb's Scores:");
             foreach (int item in Caleb.OrderBy(item => item))
-                Console.WriteLine("Caleb's Score: " + item);
+                Console.WriteLine(item);
             Console.WriteLine(" \n");
         }
         public void GetCregScore()
         {
+            Console.WriteLine("Creg's Scores:");
             foreach (int item in Creg.OrderBy(item => item))
-                Console.WriteLine("Creg's Score: " + item);
+                Console.WriteLine(item);
             Console.WriteLine(" \n");
         }
         public void ShowAllScores()

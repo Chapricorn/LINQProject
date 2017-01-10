@@ -39,10 +39,8 @@ namespace LINQExpressions
 
             Student student = new Student();
             Console.WriteLine(" Student's Project Scores. ");
-            student.GetKolinScore();
-            student.GetColleenScore();
-            student.GetCalebScore();
-            student.GetCregScore();
+            student.ShowAllScores();
+           
 
             Console.WriteLine(" Student's scores after lowest score is Removed. ");
             student.RemoveLowestScore();
